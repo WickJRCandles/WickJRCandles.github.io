@@ -14,9 +14,22 @@
             <img class="mx-auto max-w-96" src="/dist/wickjr-logo.png" alt="Wick JR. Candles Logo">
             <p class="text-lg text-gray-600 text-center mb-12">Our website is under construction.<br />We'll be online soon!
             </p>
-            <form class="flex flex-col md:flex-row justify-center items-center gap-4 mb-2">
-                <input class="w-full md:w-80  py-2 px-4 border text-gray-800 border-gray-200 bg-white rounded" type="email" placeholder="Enter your email address">
-                <button class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 border rounded">Notify Me</button>
+            <form action="https://wickjr.us11.list-manage.com/subscribe/post" class="flex flex-col md:flex-row justify-center items-center gap-4 mb-2">
+                <input type="hidden" name="u" value="785f58ea001b737f736c0de9d">
+                <input type="hidden" name="id" value="bfc65dd26c">
+                <div class="hidden" aria-label="Please leave the following three fields empty" aria-hidden="true">
+                    <label for="b_name">Name: </label>
+                    <input type="text" name="b_name" tabindex="-1" value="" placeholder="Freddie" id="b_name">
+
+                    <label for="b_email">Email: </label>
+                    <input type="email" name="b_email" tabindex="-1" value="" placeholder="youremail@gmail.com" id="b_email">
+
+                    <label for="b_comment">Comment: </label>
+                    <textarea name="b_comment" tabindex="-1" placeholder="Please comment" id="b_comment"></textarea>
+                </div>
+
+                <input autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" class="w-full md:w-80  py-2 px-4 border text-gray-800 border-gray-200 bg-white rounded" type="email" placeholder="Enter your email address">
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 border rounded">Notify Me</button>
             </form>
 
             <div class="mt-12 text-center">
