@@ -565,6 +565,14 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -593,6 +601,18 @@ video {
   max-width: 42rem;
 }
 
+.max-w-44 {
+  max-width: 11rem;
+}
+
+.max-w-80 {
+  max-width: 20rem;
+}
+
+.max-w-96 {
+  max-width: 24rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -603,6 +623,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .gap-4 {
